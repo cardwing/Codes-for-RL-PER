@@ -8,7 +8,7 @@ Codes for conference paper ["A novel DDPG method with prioritized experience rep
 - Gym 0.7.4
 
 ### Install necessary components
-    ```shell
+    ```Shell
     conda create -n tensorflow_gpu pip python=2.7
     source activate tensorflow_gpu
     pip install --upgrade tensorflow-gpu==1.4
@@ -17,7 +17,7 @@ Codes for conference paper ["A novel DDPG method with prioritized experience rep
     ```
     
 ### Run the code
-    ```shell
+    ```Shell
     source activate tensorflow_gpu
     cd PER-in-RL
     CUDA_VISIBLE_DEVICES=0 python run_ddpg_mujoco.py
@@ -25,7 +25,20 @@ Codes for conference paper ["A novel DDPG method with prioritized experience rep
 
 ### Notes
     You need to have the mujoco key file in your path, e.g., 
-    ```shell
+    ```Shell
     export MUJOCO_PY_MJKEY_PATH=/path/to/mjpro131/bin/mjkey.txt
     export MUJOCO_PY_MJPRO_PATH=/path/to/mjpro131
     ```
+
+Now, you can reproduce the results in our paper.
+
+### Cite PER-in-RL
+
+@inproceedings{hou2017novel,
+  title={A novel DDPG method with prioritized experience replay},
+  author={Hou, Yuenan and Liu, Lifeng and Wei, Qing and Xu, Xudong and Chen, Chunlin},
+  booktitle={Systems, Man, and Cybernetics (SMC), 2017 IEEE International Conference on},
+  pages={316--321},
+  year={2017},
+  organization={IEEE}
+}
