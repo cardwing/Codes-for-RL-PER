@@ -16,18 +16,15 @@ Codes for conference paper ["A novel DDPG method with prioritized experience rep
     
     
 ### Run the code
-    ```
     source activate tensorflow_gpu
     cd PER-in-RL
     CUDA_VISIBLE_DEVICES=0 python run_ddpg_mujoco.py
-    ```
 
 ### Notes
-    You need to have the mujoco key file in your path, e.g., 
-    ```
+You need to have the mujoco key file in your path, e.g., 
     export MUJOCO_PY_MJKEY_PATH=/path/to/mjpro131/bin/mjkey.txt
     export MUJOCO_PY_MJPRO_PATH=/path/to/mjpro131
-    ```
+    
 
 Now, you can reproduce the results in our paper.
 
