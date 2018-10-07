@@ -37,3 +37,6 @@ You need to have the above mujoco key file in your path. Now, you can reproduce 
   organization={IEEE}
 }
 ```
+
+### Acknowledgement
+This repo is built upon [Tensorflow-Reinforce](https://github.com/yukezhu/tensorflow-reinforce)
