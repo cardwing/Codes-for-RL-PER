@@ -29,16 +29,3 @@ Codes for conference paper ["A novel DDPG method with prioritized experience rep
     export MUJOCO_PY_MJKEY_PATH=/path/to/mjpro131/bin/mjkey.txt
     export MUJOCO_PY_MJPRO_PATH=/path/to/mjpro131
     ```
-
-Now, you can reproduce the results in our paper.
-
-### Cite PER-in-RL
-
-@inproceedings{hou2017novel,
-  title={A novel DDPG method with prioritized experience replay},
-  author={Hou, Yuenan and Liu, Lifeng and Wei, Qing and Xu, Xudong and Chen, Chunlin},
-  booktitle={Systems, Man, and Cybernetics (SMC), 2017 IEEE International Conference on},
-  pages={316--321},
-  year={2017},
-  organization={IEEE}
-}
