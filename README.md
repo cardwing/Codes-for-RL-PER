@@ -40,3 +40,6 @@ You need to have the above mujoco key file in your path. Now, you can reproduce 
 
 ### Acknowledgement
 This repo is built upon [Tensorflow-Reinforce](https://github.com/yukezhu/tensorflow-reinforce)
+
+### Contact
+If you have any problems in reproducing the reults, feel free to contact me (Yuenan_Hou@163.com) or just raise an issue in this repo.
