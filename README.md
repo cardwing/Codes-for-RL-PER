@@ -8,13 +8,12 @@ Codes for conference paper ["A novel DDPG method with prioritized experience rep
 - Gym 0.7.4
 
 ### Install necessary components
-    ```
     conda create -n tensorflow_gpu pip python=2.7
     source activate tensorflow_gpu
     pip install --upgrade tensorflow-gpu==1.4
     pip install gym==0.7.4
     pip install mujoco-py==0.5.5
-    ```
+    
     
 ### Run the code
     ```
