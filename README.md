@@ -8,7 +8,7 @@ Codes for conference paper ["A novel DDPG method with prioritized experience rep
 - Gym 0.7.4
 
 ### Install necessary components
-    ```Shell
+    ```
     conda create -n tensorflow_gpu pip python=2.7
     source activate tensorflow_gpu
     pip install --upgrade tensorflow-gpu==1.4
@@ -17,7 +17,7 @@ Codes for conference paper ["A novel DDPG method with prioritized experience rep
     ```
     
 ### Run the code
-    ```Shell
+    ```
     source activate tensorflow_gpu
     cd PER-in-RL
     CUDA_VISIBLE_DEVICES=0 python run_ddpg_mujoco.py
@@ -25,7 +25,7 @@ Codes for conference paper ["A novel DDPG method with prioritized experience rep
 
 ### Notes
     You need to have the mujoco key file in your path, e.g., 
-    ```Shell
+    ```
     export MUJOCO_PY_MJKEY_PATH=/path/to/mjpro131/bin/mjkey.txt
     export MUJOCO_PY_MJPRO_PATH=/path/to/mjpro131
     ```

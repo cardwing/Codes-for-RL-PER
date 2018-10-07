@@ -33,7 +33,7 @@ Codes for conference paper ["A novel DDPG method with prioritized experience rep
 Now, you can reproduce the results in our paper.
 
 ### Cite PER-in-RL
-
+```
 @inproceedings{hou2017novel,
   title={A novel DDPG method with prioritized experience replay},
   author={Hou, Yuenan and Liu, Lifeng and Wei, Qing and Xu, Xudong and Chen, Chunlin},
@@ -42,3 +42,4 @@ Now, you can reproduce the results in our paper.
   year={2017},
   organization={IEEE}
 }
+```
