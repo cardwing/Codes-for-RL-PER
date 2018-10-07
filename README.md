@@ -39,7 +39,7 @@ You need to have the above mujoco key file in your path. Now, you can reproduce 
 ```
 
 ### Acknowledgement
-This repo is built upon [Tensorflow-Reinforce](https://github.com/yukezhu/tensorflow-reinforce)
+This repo is built upon [Tensorflow-Reinforce](https://github.com/yukezhu/tensorflow-reinforce) and [prioritized-experience-replay](https://github.com/Damcy/prioritized-experience-replay)
 
 ### Contact
 If you have any problems in reproducing the results, just raise an issue in this repo.
