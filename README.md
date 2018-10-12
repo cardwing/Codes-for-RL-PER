@@ -26,7 +26,7 @@ Codes for conference paper ["A novel DDPG method with prioritized experience rep
 
 You need to have the above mujoco key file in your path. Now, you can reproduce the results in our paper.
 
-### Cite PER-in-RL
+### Cite RL-PER
 ```
 @inproceedings{hou2017novel,
   title={A novel DDPG method with prioritized experience replay},
