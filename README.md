@@ -1,6 +1,11 @@
 # Codes-for-prioritized-experience-replay
 Codes for conference paper ["A novel DDPG method with prioritized experience replay"](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8122622)
 
+### Demo videos
+The following videos record the performance of our trained model running on five tasks in the OpenAI gym:
+
+![demo1]() 
+
 ### Requirements
 
 - Tensorflow 1.4.0
