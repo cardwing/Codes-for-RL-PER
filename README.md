@@ -4,7 +4,11 @@ Codes for conference paper ["A novel DDPG method with prioritized experience rep
 ### Demo videos
 The following videos record the performance of our trained model running on five tasks in the OpenAI gym:
 
-![demo1]() 
+![demo1](https://github.com/cardwing/Codes-for-RL-PER/blob/master/demo_gif/inverted_pendulum.gif) 
+![demo1](https://github.com/cardwing/Codes-for-RL-PER/blob/master/demo_gif/inverted_double_pendulum.gif)
+![demo1](https://github.com/cardwing/Codes-for-RL-PER/blob/master/demo_gif/hopper.gif)
+![demo1](https://github.com/cardwing/Codes-for-RL-PER/blob/master/demo_gif/halfcheetah.gif)
+![demo1](https://github.com/cardwing/Codes-for-RL-PER/blob/master/demo_gif/walker.gif)
 
 ### Requirements
 
